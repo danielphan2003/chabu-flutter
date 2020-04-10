@@ -16,6 +16,7 @@
 
   <title>chabu</title>
   <link rel="manifest" href="manifest.json">
+  <meta name="google-signin-client_id" content="1009240199799-fs8oe9s1ie3a8h2lstfklsrihe33944t.apps.googleusercontent.com">
 </head>
 <body>
   <!-- This script installs service_worker.js to provide PWA functionality to
@@ -27,6 +28,22 @@
         navigator.serviceWorker.register('flutter_service_worker.js');
       });
     }
+  </script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-auth.js"></script>
+  <script>
+    // Your web app's Firebase configuration
+    var firebaseConfig = {
+      apiKey: "AIzaSyA7UJJ5w3TsYlwU9lmAGdK3RjWbLUv4xIk",
+      authDomain: "chabu-f62d5.firebaseapp.com",
+      databaseURL: "https://chabu-f62d5.firebaseio.com",
+      projectId: "chabu-f62d5",
+      storageBucket: "chabu-f62d5.appspot.com",
+      messagingSenderId: "1009240199799",
+      appId: "1:1009240199799:web:554cc5539a0441ad18ac72"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
