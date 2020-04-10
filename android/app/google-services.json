@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1009240199799",
+    "firebase_url": "https://chabu-f62d5.firebaseio.com",
+    "project_id": "chabu-f62d5",
+    "storage_bucket": "chabu-f62d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009240199799:android:d7e0af2458ff117e18ac72",
+        "android_client_info": {
+          "package_name": "com.dnl.chabu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009240199799-nkhdant1al93u1h19k6eud8cia6kvdah.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dnl.chabu",
+            "certificate_hash": "4aa7310dd5561443e68c043f4f01537d87fc64ca"
+          }
+        },
+        {
+          "client_id": "1009240199799-3snqdbm737sspvsko5op0b07s29vuahj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDWKeEDOxmpGMlg6UUs3ef0PnIA8x9E50"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009240199799-3snqdbm737sspvsko5op0b07s29vuahj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
